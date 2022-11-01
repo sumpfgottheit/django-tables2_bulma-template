@@ -4,7 +4,7 @@
 {% block table-wrapper %}
     <div class="container">
         {% block table %}
-            <table {% render_attrs table.attrs class="table is-striped is-hoverable is-fullwidth" %}>
+            <table {% render_attrs table.attrs class="table is-striped is-hoverable is-fullwidth is-narrow" %}>
                 {% block table.thead %}
                     {% if table.show_header %}
                         <thead {% render_attrs table.attrs.thead class="" %}>
